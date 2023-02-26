@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.logo {
+  position: absolute;
+  margin: 25px 40px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+
+/* Navigasi bar */
+.navbar{
+  width: 100%;
+  padding: 1px;
+  margin: auto;
+  background-color: #141E27;
+  height: px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.navbar li{
+  display: inline-block;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar li:hover{
+  background-color: #cc7a0f;
+  border-radius: 20%;
+}
+
+
+/* Banner */
+.banner {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../../assets/img/Banner.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner h2 {
+  margin-top: 0;
+  font-size: 3em;
+  color: white;
+  font-weight: lighter;
+  padding-top: 100px;
+  padding-left: 15%;
+}
+
+#iklan img {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* Main Content */
+.main-content {
+  font-size: 1.5em;
+  padding: 40px;
+  min-height: 100vh;
+  text-align: justify;
+}
+
+
+/* Pertanyaan section */
+#pertanyaan {
+  background-color: #141E27;
+  color: whitesmoke;
+}
+
+.external-link {
+  text-decoration: none;
+}
+
+
+/* footer */
+.footer {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  padding: 2px 0;
+  background-color:  #141E27;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 0.75em;
+  color: white;
+}
+
+.footer a{
+  font-size: 0.75em;
+  color: white;
+  text-decoration: none;
+}
